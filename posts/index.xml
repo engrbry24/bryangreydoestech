@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Feb 2024 13:17:18 +0800</lastBuildDate><atom:link href="https://engrbry24.github.io/bryangreydoestech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 16:19:40 +0800</lastBuildDate><atom:link href="https://engrbry24.github.io/bryangreydoestech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts2</title>
+      <link>https://engrbry24.github.io/bryangreydoestech/posts/posts2/</link>
+      <pubDate>Thu, 15 Feb 2024 16:19:40 +0800</pubDate>
+      
+      <guid>https://engrbry24.github.io/bryangreydoestech/posts/posts2/</guid>
+      <description>This is a sample file again sample sample</description>
+    </item>
+    
     <item>
       <title>And so it Began</title>
       <link>https://engrbry24.github.io/bryangreydoestech/posts/posts1/</link>
