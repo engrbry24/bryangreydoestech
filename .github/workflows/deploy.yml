@@ -31,16 +31,10 @@ jobs:
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
-          cp -R public/* ${{ github.workspace }}/built-site/
-          cd ${{ github.workspace }}/built-site
-          
-          if [[ -n $(git status -s) ]]; then
-            git config user.name 'bryangrey'
-            git config user.email 'engr.grey050298@gmail.com'
-            git add .
-            git commit -m 'Updated site'
-            git push
-          else
-            echo "No changes to commit. Exiting."
-          fi
-   
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
+          cd ${GITHUB_WORKSPACE}/built-site
+          git add .
+          git config user.name 'bryangrey'
+          git config user.email 'engr.grey050298@gmail.com'
+          git commit -m 'Updated site'
+          git push          
